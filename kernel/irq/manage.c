@@ -939,7 +939,6 @@ __setup_irq(unsigned int irq, struct irq_desc *desc, struct irqaction *new)
 		 * installing a new handler, but is this really a problem,
 		 * only the sysadmin is able to do this.
 		 */
-		rand_initialize_irq(irq);
 	}
 
 	/*
